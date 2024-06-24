@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gallery-item {
+    margin: 5px;
+  }
+  
+  .gallery-link {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .gallery-image {
+    display: block;
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.1);
+  }
