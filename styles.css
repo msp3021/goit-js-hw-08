@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
   }
@@ -27,4 +29,5 @@ body {
   
   .gallery-image:hover {
     transform: scale(1.1);
-  }
+
+}
